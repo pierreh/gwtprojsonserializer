@@ -1,7 +1,7 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.kfuntak.gwt.json</groupId>
+    <groupId>org.atmosphere</groupId>
     <artifactId>gwtprojsonserializer</artifactId>
     <name>GWTProJSONSerializer</name>
     <description>GWT Professional JSON Serializer allows you to serialize any JSON text into a java object (and reverse).
@@ -17,7 +17,7 @@ This JSON serializer allows easy connecting GWT client side to any standard serv
     </scm>
 
     <properties>
-        <gwt.version>2.2.0</gwt.version>
+        <gwt.version>2.4.0</gwt.version>
         <maven.compiler.source>1.5</maven.compiler.source>
         <maven.compiler.target>1.5</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -104,7 +104,7 @@ This JSON serializer allows easy connecting GWT client side to any standard serv
                 <executions>
                     <execution>
                         <goals>
-                            <goal>compile</goal>
+                            <!--<goal>compile</goal>-->
                             <goal>test</goal>
                         </goals>
                     </execution>
